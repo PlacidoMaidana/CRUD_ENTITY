@@ -18,3 +18,9 @@ C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\Goy
 C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.exe
 C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.pdb
 C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Form1.resources
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.dll
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.xml
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Form1.resources
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.CopyComplete

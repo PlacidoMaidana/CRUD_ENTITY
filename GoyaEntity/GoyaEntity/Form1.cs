@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GoyaEntity.Datos;
 
 namespace GoyaEntity
 {
@@ -21,6 +22,13 @@ namespace GoyaEntity
         {
             FormularioFichaContacto ficha = new FormularioFichaContacto();
                 ficha.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            zoologicoEntities z = new zoologicoEntities();
+            zoologicoBindingSource.DataSource = z.zoologico.ToList();
+            zoologicoDataGridView.DataSource = zoologicoBindingSource.DataSource;
         }
     }
 }
