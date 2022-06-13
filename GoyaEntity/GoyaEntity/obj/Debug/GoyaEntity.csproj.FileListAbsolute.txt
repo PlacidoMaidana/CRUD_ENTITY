@@ -7,3 +7,14 @@ D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.Gener
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.CoreCompileInputs.cache
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.exe
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.pdb
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.exe.config
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.exe
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.pdb
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.AssemblyReference.cache
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.SuggestedBindingRedirects.cache
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Properties.Resources.resources
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.exe
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.pdb
+C:\Users\Francisco\Desktop\crud entity clase\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Form1.resources

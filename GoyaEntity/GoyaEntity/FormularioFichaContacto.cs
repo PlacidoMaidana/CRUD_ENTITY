@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace GoyaEntity
 {
-    public partial class Form1 : Form
+    public partial class FormularioFichaContacto : Form
     {
-        public Form1()
+        public FormularioFichaContacto()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FormularioFichaContacto ficha = new FormularioFichaContacto();
-                ficha.ShowDialog();
         }
     }
 }
