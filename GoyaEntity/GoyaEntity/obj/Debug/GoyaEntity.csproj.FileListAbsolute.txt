@@ -1,0 +1,9 @@
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.exe.config
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.exe
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\GoyaEntity.pdb
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.AssemblyReference.cache
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Properties.Resources.resources
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.GenerateResource.cache
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.CoreCompileInputs.cache
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.exe
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.pdb
