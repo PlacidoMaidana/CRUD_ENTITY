@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82BF8690-A7F4-4D2E-AFF2-3DE3D4B31A7C}</ProjectGuid>
+    <ProjectGuid>{67B2F672-E611-4646-B942-E98BCD523A4B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>GoyaEntity</RootNamespace>
-    <AssemblyName>GoyaEntity</AssemblyName>
+    <RootNamespace>UniversidadDatasets</RootNamespace>
+    <AssemblyName>UniversidadDatasets</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,17 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,23 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Datos\zoo.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>zoo.Context.tt</DependentUpon>
+    <Compile Include="FichaAlumno.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Datos\zoo.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>zoo.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Datos\zoo.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>zoo.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Datos\zoologico.cs">
-      <DependentUpon>zoo.tt</DependentUpon>
+    <Compile Include="FichaAlumno.Designer.cs">
+      <DependentUpon>FichaAlumno.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,19 +58,21 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormularioFichaContacto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormularioFichaContacto.Designer.cs">
-      <DependentUpon>FormularioFichaContacto.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UNIVERSIDADDataSet.cs">
+      <DependentUpon>UNIVERSIDADDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UNIVERSIDADDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UNIVERSIDADDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FichaAlumno.resx">
+      <DependentUpon>FichaAlumno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormularioFichaContacto.resx">
-      <DependentUpon>FormularioFichaContacto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -102,16 +83,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EntityDeploy Include="Datos\zoo.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>zoo.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Datos\zoo.edmx.diagram">
-      <DependentUpon>zoo.edmx</DependentUpon>
-    </None>
-    <None Include="packages.config" />
-    <None Include="Properties\DataSources\GoyaEntity.Datos.zoologico.datasource" />
-    <None Include="Properties\DataSources\GoyaEntity.Datos.zoologicoEntities.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,24 +92,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="UNIVERSIDADDataSet.xsc">
+      <DependentUpon>UNIVERSIDADDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UNIVERSIDADDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UNIVERSIDADDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UNIVERSIDADDataSet.xss">
+      <DependentUpon>UNIVERSIDADDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Datos\zoo.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>zoo.Context.cs</LastGenOutput>
-      <DependentUpon>zoo.edmx</DependentUpon>
-    </Content>
-    <Content Include="Datos\zoo.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>zoo.edmx</DependentUpon>
-      <LastGenOutput>zoo.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

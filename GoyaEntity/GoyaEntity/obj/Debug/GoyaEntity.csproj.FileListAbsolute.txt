@@ -24,3 +24,4 @@ D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.xml
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\bin\Debug\EntityFramework.SqlServer.xml
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.Form1.resources
 D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.csproj.CopyComplete
+D:\ProyectosC#\CRUD_GOYA\GoyaEntity\GoyaEntity\obj\Debug\GoyaEntity.FormularioFichaContacto.resources

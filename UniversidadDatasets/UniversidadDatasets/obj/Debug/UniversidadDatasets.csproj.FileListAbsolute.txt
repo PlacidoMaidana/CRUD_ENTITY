@@ -1,0 +1,11 @@
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\bin\Debug\UniversidadDatasets.exe.config
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\bin\Debug\UniversidadDatasets.exe
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\bin\Debug\UniversidadDatasets.pdb
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.csproj.AssemblyReference.cache
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.Form1.resources
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.Properties.Resources.resources
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.csproj.GenerateResource.cache
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.csproj.CoreCompileInputs.cache
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.exe
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.pdb
+D:\ProyectosC#\CRUD_GOYA\UniversidadDatasets\UniversidadDatasets\obj\Debug\UniversidadDatasets.FichaAlumno.resources
